@@ -1,2 +1,2 @@
 # TIL
-:pig: Today-I-Learned
+:fire: Today-I-Learned
