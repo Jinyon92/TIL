@@ -44,3 +44,9 @@ __5. 쿠키의 유효기간 설정__
   - cookie.setMaxAge(10*60); //초 단위 : 10분
   - 1주일 지정하려면 (7*24*60*60)로 설정합니다.
 
+![cookie-image](../static/web/cookie-image.png)
+
+__6. Spring MVC에서의 Cookie 사용__
++ @CookieValue 애노테이션 사용
+  - 컨트롤러 메소드의 파라미터에서 CookieValue애노테이션을 사용함으로써 원하는 쿠키정보를 파라미터 변수에 담아 사용할 수 있습니다.
++ 컨트롤러메소드(@CookieValue(value="쿠키이름", required=false, defaultValue="기본값") String 변수명)
