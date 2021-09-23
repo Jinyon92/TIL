@@ -12,3 +12,4 @@ Well begun is half done.
 ## Spring
 * [스프링의 핵심 원리](Spring/Spring.md)
 * [좋은 객체 지향 설계의 5가지 원칙](Spring/solid.md)
+* [생성자 주입을 선택해라](Spring/constructor.md)
